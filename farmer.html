@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泰州市禾雅生态农业开发公司</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #2c7a4e;
+            --color-secondary: #f0f5f2;
+            --font-inter: 'Inter', sans-serif;
+        }
+        @utility smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: var(--font-inter);
+        }
+        .card {
+            @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-secondary smooth-scroll">
+    <!-- 导航栏 -->
+    <nav class="bg-primary text-white sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold">禾雅生态农业</h1>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:underline">公司简介</a>
+                <a href="#history" class="hover:underline">发展历程</a>
+                <a href="#honor" class="hover:underline">荣誉资质</a>
+                <a href="#product" class="hover:underline">产品标准</a>
+                <a href="#team" class="hover:underline">团队规划</a>
+                <a href="#contact" class="hover:underline">联系我们</a>
+            </div>
+            <button class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header class="relative">
+
+        <div class="absolute inset-0 bg-primary/70 flex items-center justify-center">
+            <div class="text-center text-white px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-3">泰州市禾雅生态农业开发公司</h2>
+                <p class="text-lg md:text-xl">绿色生态种植 · 创新农业发展</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 公司简介 -->
+    <section id="about" class="container mx-auto px-4 py-10">
+        <div class="flex flex-col md:flex-row gap-8 items-center">
+            <div class="md:w-1/2">
+       <!--       //<img src="https://picsum.photos/id/292/600/400" alt="农业种植场景" class="w-full rounded-lg">-->
+            </div>
+            <div class="md:w-1/2">
+                <h3 class="text-2xl font-bold text-primary mb-4">公司简介</h3>
+                <p class="mb-4">泰州市禾雅生态农业开发公司成立于2019年12月，由姜堰区苏泰粮食种植家庭农场和泰州市水稻种植合作社合并组建。公司以绿色生态种植为核心理念，整合优势资源，推动农业种植结构调整与农产品供给侧改革，致力于打造现代化生态农业标杆企业。</p>
+                <p>公司聘请蔬菜种植专家、资深种植团队及管理人才，通过市场调研与产业布局，构建了从种植到销售的完整农业产业链，为市场提供优质、绿色的农产品。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 发展历程 -->
+    <section id="history" class="bg-white py-10">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold text-primary mb-8 text-center">发展历程</h3>
+            <div class="space-y-6">
+                <div class="card p-6">
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <div class="md:w-1/4">
+                            <h4 class="text-xl font-bold text-primary">2016年</h4>
+                        </div>
+                        <div class="md:w-3/4">
+                            <p>苏泰粮食种植家庭农场成立，坚持绿色生态种植理念，开展稻鸭、稻鳅共作及果林养禽产业开发。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-6">
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <div class="md:w-1/4">
+                            <h4 class="text-xl font-bold text-primary">2017年</h4>
+                        </div>
+                        <div class="md:w-3/4">
+                            <p>组织周边种植大户成立泰州市浦津水稻种植专业合作社，近3000亩水稻通过三个绿色食品标志认证，制定泰州市稻鳅共作地方标准一项，申请“养森康”“鳅稻黄”稻米商标。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card p-6">
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <div class="md:w-1/4">
+                            <h4 class="text-xl font-bold text-primary">2019年</h4>
+                        </div>
+                        <div class="md:w-3/4">
+                            <p>成立禾雅生态农业开发公司，适应农业种植结构调整与农产品供给侧改革政策，聘请蔬菜种植专家、种植团队及管理人才，制定公司运行方案，开展市场调研与客商对接，布局现代农业产业。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉资质 -->
+    <section id="honor" class="container mx-auto px-4 py-10">
+        <h3 class="text-2xl font-bold text-primary mb-8 text-center">荣誉资质</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="card p-6">
+                <h4 class="text-xl font-bold text-primary mb-3">泰州市示范农场</h4>
+                <p>苏泰粮食种植家庭农场凭借绿色生态种植模式与产业创新，荣获泰州市示范农场称号，成为区域农业发展标杆。</p>
+            </div>
+            <div class="card p-6">
+                <h4 class="text-xl font-bold text-primary mb-3">巾帼创业示范基地</h4>
+                <p>公司在农业创业领域展现突出成果，荣获巾帼创业示范基地荣誉，彰显女性在现代农业发展中的重要作用。</p>
+            </div>
+            <div class="card p-6">
+                <h4 class="text-xl font-bold text-primary mb-3">绿色食品认证</h4>
+                <p>合作社近3000亩水稻通过三个绿色食品标志认证，严格遵循绿色种植标准，保障农产品品质与安全。</p>
+            </div>
+            <div class="card p-6">
+                <h4 class="text-xl font-bold text-primary mb-3">地方标准制定</h4>
+                <p>参与制定泰州市稻鳅共作地方标准，为区域特色农业产业规范化发展提供技术支撑与行业参考。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品与标准 -->
+    <section id="product" class="bg-white py-10">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold text-primary mb-8 text-center">产品与标准</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card p-6 text-center">
+                    <h4 class="text-xl font-bold text-primary mb-3">稻鳅共作</h4>
+                    <p>创新种植模式，实现水稻与泥鳅共生，提升土地利用率与农产品附加值，产品获绿色食品认证。</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h4 class="text-xl font-bold text-primary mb-3">果林养禽</h4>
+                    <p>发展林下经济，果林养殖家禽，实现生态循环，提升农产品多样性与经济效益。</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h4 class="text-xl font-bold text-primary mb-3">品牌与标准</h4>
+                    <p>拥有“养森康”“鳅稻黄”稻米商标，制定稻鳅共作地方标准，推动产业标准化、品牌化发展。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 团队与规划 -->
+    <section id="team" class="container mx-auto px-4 py-10">
+        <h3 class="text-2xl font-bold text-primary mb-8 text-center">团队与规划</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="card p-6">
+                <h4 class="text-xl font-bold text-primary mb-4">专业团队</h4>
+                <p>公司聘请多名蔬菜种植专家、资深种植团队及管理人才，构建了一支技术过硬、经验丰富的现代农业运营团队，为产业发展提供智力支持。</p>
+            </div>
+            <div class="card p-6">
+                <h4 class="text-xl font-bold text-primary mb-4">发展规划</h4>
+                <p>在区农委指导下，公司开展多次市场调研，对接蔬菜供应客商，聚焦市场需求，规划拓展绿色蔬菜种植、农产品深加工等领域，打造从田间到餐桌的全产业链，为现代农业发展注入新活力。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="container mx-auto px-4 py-10">
+        <h3 class="text-2xl font-bold text-primary mb-8 text-center">联系我们</h3>
+        <div class="card p-6 flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/3">
+                <img src="https://picsum.photos/id/64/200/200" alt="禾雅朱爱红" class="w-32 h-32 rounded-full object-cover">
+            </div>
+            <div class="md:w-2/3">
+                <h4 class="text-xl font-bold text-primary mb-2">禾雅朱爱红</h4>
+                <p class="mb-2"><span class="font-semibold">微信号：</span>wxid_6458514586112</p>
+                <p class="mb-4"><span class="font-semibold">地区：</span>江苏 泰州</p>
+                <div class="mb-4">
+                    <span class="font-semibold">视频号：</span>
+                    <a href="#" class="text-primary hover:underline">苏泰农场</a>
+                </div>
+                <p class="italic">"Believe in yourself"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>泰州市禾雅生态农业开发公司 © 2025 版权所有</p>
+            <p class="mt-2">绿色生态种植 · 创新农业发展</p>
+        </div>
+    </footer>
+</body>
+</html>
